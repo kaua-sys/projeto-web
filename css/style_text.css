@@ -5,3 +5,36 @@ seletor{
 }
 */
 
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: fuchsia;
+}
+
+p{
+    font-family: helvetica;
+    text-align: justify;
+    line-height: 35px;
+    color: indigo;
+}
+
+#paragrafo01{
+    margin-left: 250px;
+    text-transform: uppercase;
+}
+
+#paragrafo02{
+    margin-right: 300px;
+    background-color: khaki;
+}
+
+.paragrafos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.3em;
+    line-height: 80px;
+}
+
+.parag_especial{
+    text-decoration: line-through;
+}
