@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto WEB HTML/CSS</title>
-    
+
     <link rel="stylesheet" href="../css/style_formulario.css">
+
+    <link rel="shortcut icon" href="../imagens/gemini-svg.svg" type="image/x-icon">
 </head>
 <body>
+
+    <div id="links">
+        <a href="../index.html">Página Inicial</a> | <a href="texto.html">Texto</a> | <a href="outros/texto_especial.html">Texto Especial</a> | <a href="lista.html">Lista</a> | <a href="imagens.html">Imagens</a> | <a href="formulario.html">Formulário</a>
+    </div>
+
     <div id="div-form">
         <h1>Formulário</h1>
 
@@ -84,16 +91,19 @@
             <option value="SE">Sergipe</option>
             <option value="TO">Tocantins</option>
         </select>
+
            <br>
             <br>
+
         <label for="comentario">Comentário</label>
         <textarea name="comentario" id="comentario" placeholder="Informe seu Comentário" required></textarea>
 
+      <div id="div-btn">
         <button type="submit" id="btn-enviar">Enviar</button>
         <button type="reset" id="btn-limpar">Limpar</button>
         <button id="btn">Botão</button>
         </form>
-
+    </div>
     </div>
     
 </body>
